@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="h3 fw-bold text-danger">Add Contact</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, est!
+        Dicta in molestiae facere ducimus officia ut accusantium saepe suscipit,
+        dolorem libero. Omnis quod, nostrum nulla minima neque maxime sint!
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--conditio based loading-->
+<div *ngIf="loading">
+  <app-spinner></app-spinner>
+</div>
+
+<!--displa error
+<div *ngIf="!loading && errorMessage">
+  <app-spinner></app-spinner>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!--Create Contact form-->
+<div class="container">
+  <div class="col-md-3">
+    <form (submit)="addSubmit()">
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.name" name="name" class="form-control" placeholder="Name" type="text" required/>
+      </div>
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.photo" name="photo" class="form-control" placeholder="Photo Url" type="text" required/>
+      </div>
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.email" name="email" class="form-control" placeholder="Email Id" type="email" required />
+      </div>
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.mobile" name="mobile" class="form-control" placeholder="Mobile" type="number" required />
+      </div>
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.company" name="company" class="form-control" placeholder="Company" type="text" required/>
+      </div>
+      <div class="mb-2">
+        <input [(ngModel)]="contacts.title" name="title" class="form-control" placeholder="Title" type="text" required/>
+      </div>
+      <div class="mb-2">
+
+        <select class="form-control" >
+          <option value="">Select a Group</option>
+          <option value="">Collegue</option>
+          <option value="">Friend</option>
+          <option value="">Service</option>
+          <option value="">Community</option>
+          <option value="">Social</option>
+          <option *ngFor="let group of groups" [value]="group.id">{{ group.name }}</option>
+        </select>
+
+      </div>
+      <div class="mb-2">
+        <input class="btn btn-danger" value="Create" type="submit" />
+        <a routerLink="/contacts" class="btn btn-dark ms-2">Close</a>
+      </div>
+    </form>
+  </div>
+  <div class="col-sm-4">
+    <img alt="co" [src]="contacts.photo" class="contact-img" />
+  </div>
+</div>

@@ -1,0 +1,121 @@
+{
+  "contacts": [
+    {
+      "id": "WAER",
+      "name": "kalps",
+      "email": "kalps@gmail.com",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMyAgUNxNYVfKdKD_4yFMrIOfbpTX9NG2g-g&usqp=CAU",
+      "mobile": "9492514542",
+      "company": "Home",
+      "title": "--",
+      "groupId": "3"
+    },
+    {
+      "id": "W8pSbqm",
+      "name": "office",
+      "photo": "data:image/png;base64,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",
+      "email": "office123@gmail.com",
+      "mobile": 230512,
+      "company": "Reddit",
+      "title": "Manager ",
+      "groupId": "3"
+    },
+    {
+      "id": "8pSbqm",
+      "name": "Geetu",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvu9FQbcqTLdDBcYFG7_u4AxM72AfwIwJsDw&usqp=CAU",
+      "email": "gitk123@gmail.com",
+      "mobile": 980230512,
+      "company": "Resa",
+      "title": "Manager ",
+      "groupId": "3"
+    },
+    {
+      "id": "8pSbqm",
+      "name": "Reetu",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCAZqe_O_4qIEVqp4yjy906FVumbtgy8OzTA&usqp=CAU",
+      "email": "gitk123@gmail.com",
+      "mobile": 810230512,
+      "company": "lesa",
+      "title": "Manager ",
+      "groupId": "2"
+    },
+    {
+      "id": "0Sbqm",
+      "name": "eswur",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSu27qASxV9IimKLWedfY24kXMaDMwLVmbw&usqp=CAU",
+      "email": "geswr3@gmail.com",
+      "mobile": 910230512,
+      "company": "Taj hotel",
+      "title": "Receptionist ",
+      "groupId": "1"
+    },
+    {
+      "name": "end",
+      "email": "rishitha4640@gmail.com",
+      "mobile": 9423152451,
+      "company": "eswszx",
+      "photo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAADfCAMAAADcKv+WAAAAeFBMVEX///8AAAD8/Pzu7u7z8/MvLy9DQ0PLy8seHh66urqAgIC2trYnJyc6OjpdXV0MDAyrq6vY2NiOjo4pKSlsbGyVlZVLS0ulpaUUFBTv7+/R0dHf39+fn5/m5uZBQUE1NTVfX19VVVVxcXF5eXnCwsJoaGggICCYmJh1vf7IAAAIPUlEQVR4nO2daaOqIBCG09ZTt0w72Wpl6///h7dcgBkgtXCpM+83AWEeQYERtNV6UStvPKhQO6/zqqWvam1VLrdawnb1hJZVbT2e6kD0KkUc1IG4qxSxDkJrWQPiyq5I7doQK7v/V9+P+AdqkRBLESGaVn2IlRXXKQWxP/R7esWIuycpjGoXl/ckxWFatEm5+/cHI1VrXojwXLe5L8kvUod1G/uiDvkR/9Vt66s6f3czfWiWF/EYpz9XNY8woaRagpyI4yj1Nu8VaYa2cbXkTO1EqfulWmRc/cjoac7UhNhMESISITZThIhEiM0UISIRYjNFiEiEeJdtl+1CLZy/QcS151+dewpnPFyL4bY3l+Q98pjK4fPHXHSzXcTaonns5hbOltZy0O2dppsoJEiTAo3KQRwtRT/C8ofHdCyFxvcIXxWxEd0noKRzV0qpWzsBLo0hxGCMS5nYTxEn94iLKqKT2vSQsBQj6OGUKz2iLdpmBlHlthqskkhbZcRRh2irEeUSIoeTxukJjDOCqHbMpU4vJaKnQwR2M8SRnPCkR3SMI+qW2gyfID5KHCrCr/fwDTtK7ykVyVSP2DOOqHxsPOTqEUcaxJ4SUbXSJcp8o4iwrItpRKGZ7o8nsfUdEOJyfJfjpHlwxOVdjh5xK9of+rFLPooJQBbL5Kl+NI3IX1XFEULlBBCR+zLtxzNvDi/FI7i9Aog2ukZpFmsvaYwckfcTdhuODt5H5LdD+o5rx0Jip/JVRozEKucAwzGi8KxhIJ0YY6VAxH",
+      "title": "a4sr",
+      "id": "i8TQGIH"
+    },
+    {
+      "name": "end",
+      "email": "rishitha4640@gmail.com",
+      "mobile": 9423152451,
+      "company": "eswszx",
+      "photo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH0AvgMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQUGAwQHAgj/xAA+EAACAAQDBgQDBwMDAwUAAAABAgADERIEITEFEzJBUVIGIjNCQ2HwFCNicYGhwQdTkRUksWNy4TREktHx/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EACcRAAICAQMDAwUBAAAAAAAAAAABAgMRBBIhBTFRE0FxIjKBkdFC/9oADAMBAAIRAxEAPwD2Yli4dxSaOFRzgKhmZRWaeNe2FCGCu1Zp4X6RBUsyq1swcT90AKAKVQ1lHibpA0KhWostT5COcQEFLlUiWOJKaxTQAFxVDkq9sAKsXvYATgKKnUfVYCoqUFWb1B2wob7DnN5TOkAC1QhtYcbd0AKAJZU7nW/nWBFbQ+QX0/xQqtt+krspzhoBeahuAdkAKteHoN/2fKA8t27owb1K+36zga3ha/e09T5dI6r46RLmshLIVNJnkPm+v5ispxgsyeAcyzJL3SVmAy01IOYMdbG40ycRKQpUJmfy5f8AH+Ix05lfEzJkuoUtVaZUj4d3dy7sWY6k0jxr+q4TjFcpmqr8mYxWMXDoJygPPbSWDkR1/wARzymVpYaV5kmCrseVY18fmemukfQdzLEq8mWPbyP59YR6wtzzHj2JdZn/ACGWEJG55P1+s4+iSxDOKTF4B3RjsDicPLwSb6chALVlk1I8xzpGQORAY3M3A3bHr12KyKkjJrBRcGLqKzSPMvID6pEAABVKmW3Gx5QANxVWAmjif",
+      "title": "a4sr",
+      "id": "PpD_73B"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ],
+  "signupusers": [
+    {
+      "fullname": "Rishitha",
+      "email": "rishitha4640@gmail.com",
+      "password": "1234567",
+      "mobile": 7013648280,
+      "id": 3
+    },
+    {
+      "fullname": "rishii",
+      "email": "prait@gmail.com",
+      "password": "qwerasd",
+      "mobile": 9423152451,
+      "id": 4
+    },
+    {
+      "fullname": "rishi",
+      "email": "rishi@gmail.com",
+      "password": "1234589",
+      "mobile": 7013648280,
+      "id": 5
+    }
+  ]
+}
